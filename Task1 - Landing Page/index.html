@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Tour</title>
+  <style>
+    /* CSS Styles */
+    body {
+      background-image: url('world.png');
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .hero {
+      background-image: url('background-image.jpg');
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      color: black;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: black;
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .cta-button {
+      background-color: #ff5722;
+      color: white;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #f44336;
+    }
+
+    .feature-boxes {
+      display: flex;
+      justify-content: center;
+      margin-top: 4rem;
+    }
+
+    .feature-box {
+      text-align: center;
+      padding: 2rem;
+      margin: 0 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease;
+      background-color: #C2B280;
+    }
+
+    .feature-box:hover {
+      box-shadow: 10px 10px 6px grey;
+    }
+
+    .feature-box h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .feature-box p {
+      font-size: 1rem;
+    }
+
+    .footer {
+      background-color: #87CEEB;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    #signup{
+      text-align: center;
+      margin: 50px auto;
+    }
+
+    .footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div>
+      <h1>Embark on an Unforgettable Adventure</h1>
+      <p>Experience the wonders of the world with our exclusive world tour packages.</p>
+      <a href="#signup" class="cta-button">Sign up now</a>
+    </div>
+  </div>
+
+  <div class="section feature-boxes">
+    <div class="feature-box">
+      <h3>Explore Exotic Locations</h3>
+      <p>Discover hidden gems and breathtaking landscapes in our handpicked destinations.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Expert Tour Guides</h3>
+      <p>Our experienced tour guides will ensure you have an informative and memorable journey.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Luxury Accommodation</h3>
+      <p>Indulge in the finest hotels and resorts, offering exceptional comfort and service.</p>
+    </div>
+  </div>
+
+  <div id="signup" class="section">
+    <h2>Sign Up for Exclusive Offers</h2>
+    <form>
+      <input type="email" placeholder="Enter your email address" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2023 World Tour. All rights reserved.</p>
+  </div>
+</body>
+</html>
